@@ -1,0 +1,30 @@
+.root {
+  height: 70px;
+  margin-top: 20px;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.navItem {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
